@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtView_expressao"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="40sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txtView_resultado"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginEnd="10dp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout_chield_1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_limpar"
+            style="@style/operator_button"
+            android:text="@string/btn_limpar" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_operador_divisao"
+            style="@style/operator_button"
+            android:text="@string/btn_operador_divisao" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_chield_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_num_7"
+            style="@style/number_button"
+            android:text="@string/btn_num_7" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_num_8"
+            style="@style/number_button"
+            android:text="@string/btn_num_8" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_num_9"
+            style="@style/number_button"
+            android:text="@string/btn_num_9" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_operador_multiplicacao"
+            style="@style/operator_button"
+            android:text="@string/btn_operador_multiplicacao" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_chield_3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_num_4"
+            style="@style/number_button"
+            android:text="@string/btn_num_4" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_num_5"
+            style="@style/number_button"
+            android:text="@string/btn_num_5" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_num_6"
+            style="@style/number_button"
+            android:text="@string/btn_num_6" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_operador_subtracao"
+            style="@style/operator_button"
+            android:text="@string/btn_operador_subtracao" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_filho_4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_num_1"
+            style="@style/number_button"
+            android:text="@string/btn_num_1" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_num_2"
+            style="@style/number_button"
+            android:text="@string/btn_num_2" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_num_3"
+            style="@style/number_button"
+            android:text="@string/btn_num_3" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_operador_adicao"
+            style="@style/operator_button"
+            android:text="@string/btn_operador_adicao" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_chield_5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_ponto"
+            style="@style/number_button"
+            android:text="@string/btn_ponto" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_num_0"
+            style="@style/number_button"
+            android:text="@string/btn_num_0" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/btn_backspace"
+            style="@style/number_button"
+            android:scaleType="center"
+            android:src="@drawable/ic_backspace_button" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_operador_igual"
+            style="@style/operator_button"
+            android:text="@string/btn_operador_igual" />
+
+    </LinearLayout>
+
+</LinearLayout>

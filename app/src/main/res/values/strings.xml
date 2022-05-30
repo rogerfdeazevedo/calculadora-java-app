@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">calculadora-java-app</string>
+
+    <string name="btn_limpar">C</string>
+    <string name="btn_ponto">.</string>
+
+    <string name="btn_operador_divisao">/</string>
+    <string name="btn_operador_multiplicacao">x</string>
+    <string name="btn_operador_subtracao">-</string>
+    <string name="btn_operador_adicao">+</string>
+    <string name="btn_operador_igual">=</string>
+
+    <string name="btn_num_0">0</string>
+    <string name="btn_num_1">1</string>
+    <string name="btn_num_2">2</string>
+    <string name="btn_num_3">3</string>
+    <string name="btn_num_4">4</string>
+    <string name="btn_num_5">5</string>
+    <string name="btn_num_6">6</string>
+    <string name="btn_num_7">7</string>
+    <string name="btn_num_8">8</string>
+    <string name="btn_num_9">9</string>
+
+</resources>
